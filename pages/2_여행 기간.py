@@ -10,7 +10,7 @@ max_date = date(2026, 8, 12)
 # 2. 날짜 범위 선택 슬라이더
 # value에 튜플 (시작일, 종료일)을 넣으면 범위를 선택하는 양방향 슬라이더가 생성됩니다.
 travel_dates = st.slider(
-    "여행 기간을 선택해 주세요:",
+    "원하는 여행 기간을 선택해 주세요:",
     min_value=min_date,
     max_value=max_date,
     value=(min_date, max_date),  # 기본 선택값을 전체 기간으로 설정
