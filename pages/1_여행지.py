@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.subheader('선호하는 여행지 유형 선택')
+
 # 1. 단일 선택 라디오 버튼 생성
 destination = st.radio(
     "어떤 유형의 여행지를 선호하시나요?",
