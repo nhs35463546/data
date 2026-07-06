@@ -15,9 +15,7 @@ df = pd.DataFrame({
 # 데이터 보기
 st.subheader("① 데이터")
 st.dataframe(df)
-st.dataframe(df1)
 
 # 라인차트 그리기
 st.subheader("② 라인차트")
 st.line_chart(df.set_index("월"))
-st.line_chart(df1.set_index("월"))
