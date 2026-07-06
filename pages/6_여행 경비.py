@@ -16,4 +16,4 @@ if expense_method:
     # 단, 한국어 조사(로/으로)를 자연스럽게 맞추기 위해 문구를 조정했습니다.
     st.success(f'**"{expense_method}"** 방식으로 정산하자! 💰')
 else:
-    st.write("⚠️ 경비 정산 방식을 선택해 주세요.")
+    st.write("경비 정산 방식을 선택해 주세요.")
